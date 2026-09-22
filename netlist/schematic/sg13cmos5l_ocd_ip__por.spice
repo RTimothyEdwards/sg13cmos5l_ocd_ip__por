@@ -1,0 +1,92 @@
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/sg13cmos5l_ocd_ip__por.sch
+.subckt sg13cmos5l_ocd_ip__por vdd1v2 ena por_unbuf vss porb por
+*.PININFO ena:I vdd1v2:B vss:B por_unbuf:O porb:O por:O
+x1 vdd1v2 vpb vref vfb ena vss net2 por_amp
+x2 vdd1v2 vcap por_unbuf vss por_1v2_schmitt_inv
+x7 vdd1v2 vss sg13cmos5l_decap_4
+x5 por por_unbuf vdd1v2 vss sg13cmos5l_buf_16
+x6 net1 por_unbuf vdd1v2 vss sg13cmos5l_inv_4
+x3 porb net1 vdd1v2 vss sg13cmos5l_buf_16
+XR3 vdd1v2 vref vss rhigh w=0.5e-6 l=908.28e-6 m=1 b=0 mm_ok=1
+XR1 vfb vss vss rhigh w=0.5e-6 l=908.28e-6 m=1 b=0 mm_ok=1
+XC2 vref vpb cap_cmomf w=50e-6 l=14e-6 mmin=3 mmax=4 subblock=0 m=1 mm_ok=1
+XC1 vcap vss cap_cmomf w=20e-6 l=20e-6 mmin=1 mmax=4 subblock=0 m=16 mm_ok=1
+XD2 vss ena dantenna l=0.78u w=0.78u
+XC3 vdd1v2 vss cap_cmomf w=50e-6 l=14e-6 mmin=3 mmax=4 subblock=0 m=1 mm_ok=1
+XC4 vcap vss cap_cmomf w=50e-6 l=14e-6 mmin=1 mmax=4 subblock=1 m=2 mm_ok=1
+x4 vdd1v2 vref vpb vcap vfb net2 vss por_stepdown
+.ends
+
+* expanding   symbol:  por_amp.sym # of pins=7
+** sym_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_amp.sym
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_amp.sch
+.subckt por_amp vdd1v2 out inn inp ena vss nbias
+*.PININFO ena:I inp:I inn:I out:O vdd1v2:B vss:B nbias:I
+XM10 vdd1v2 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos w=1.88u l=0.13u ng=4 m=1 mm_ok=1
+XM11 vss vss vss vss sg13_lv_nmos w=0.94u l=0.13u ng=2 m=1 mm_ok=1
+XM8 nc vss vss vss sg13_lv_nmos w=0.94u l=0.13u ng=2 m=1 mm_ok=1
+XM1 out net1 vdd1v2 vdd1v2 sg13_lv_pmos w=2.82u l=0.13u ng=6 m=1 mm_ok=1
+XM2 net1 net1 vdd1v2 vdd1v2 sg13_lv_pmos w=2.82u l=0.13u ng=6 m=1 mm_ok=1
+XM3 net2 nbias vss vss sg13_lv_nmos w=5.64u l=0.13u ng=12 m=1 mm_ok=1
+XM4 nc ena net2 vss sg13_lv_nmos w=5.64u l=0.13u ng=12 m=1 mm_ok=1
+XM5 net1 inp nc vss sg13_lv_nmos w=5.64u l=0.13u ng=12 m=1 mm_ok=1
+XM6 out inn nc vss sg13_lv_nmos w=5.64u l=0.13u ng=12 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  por_1v2_schmitt_inv.sym # of pins=4
+** sym_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_1v2_schmitt_inv.sym
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_1v2_schmitt_inv.sch
+.subckt por_1v2_schmitt_inv vdd1v2 in out vss
+*.PININFO vdd1v2:B vss:B in:I out:O
+XM7 out in n1 vss sg13_lv_nmos w=0.7u l=0.13u ng=2 m=1 mm_ok=1
+XM8 p1 in vdd1v2 vdd1v2 sg13_lv_pmos w=1.4u l=0.13u ng=4 m=1 mm_ok=1
+XM2 out in p1 vdd1v2 sg13_lv_pmos w=0.35u l=0.13u ng=1 m=1 mm_ok=1
+XM3 vss out p1 vdd1v2 sg13_lv_pmos w=1.4u l=0.26u ng=1 m=1 mm_ok=1
+XM1 n1 in vss vss sg13_lv_nmos w=0.7u l=0.13u ng=2 m=1 mm_ok=1
+XM4 vdd1v2 out n1 vss sg13_lv_nmos w=2.8u l=0.26u ng=1 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  por_stepdown.sym # of pins=7
+** sym_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_stepdown.sym
+** sch_path: /home/tim/gits/sg13cmos5l_ocd_ip__por/xschem/por_stepdown.sch
+.subckt por_stepdown vdd1v2 vref vpb vcap vfb nbias vss
+*.PININFO vdd1v2:B vss:B nbias:O vref:I vpb:I vfb:O vcap:O
+Vmeas vdd1v2 net7 0
+.save i(vmeas)
+Vmeas1 vdd1v2 net6 0
+.save i(vmeas1)
+Vmeas2 vdd1v2 net5 0
+.save i(vmeas2)
+Vmeas3 vdd1v2 net4 0
+.save i(vmeas3)
+Vmeas4 vref net8 0
+.save i(vmeas4)
+XM26 net1 vpb net7 vdd1v2 sg13_lv_pmos w=2.88u l=0.13u ng=12 m=1 mm_ok=1
+XM27 net8 net8 nbias vss sg13_lv_nmos w=3.76u l=0.13u ng=8 m=1 mm_ok=1
+XM13 nbias nbias vss vss sg13_lv_nmos w=3.76u l=0.13u ng=8 m=1 mm_ok=1
+XM1 nb1 nb1 net2 vss sg13_lv_nmos w=2.88u l=0.13u ng=12 m=1 mm_ok=1
+XM6 net2 net2 vss vss sg13_lv_nmos w=2.88u l=0.13u ng=12 m=1 mm_ok=1
+XM7 n1 net2 vss vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM8 pb1 nb1 n1 vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM14 vss vss vss vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM19 n1 vss vss vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM20 n1 vss nb1 vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM21 nb1 vss vss vss sg13_lv_nmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM15 vdd1v2 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=2 mm_ok=1
+XM16 vdd1v2 vdd1v2 p1 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM17 vfb vdd1v2 p1 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM18 vdd1v2 vdd1v2 vfb vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM22 vdd1v2 vdd1v2 p2 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM23 pb1 vdd1v2 p2 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM24 vdd1v2 vdd1v2 pb1 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM2 vfb vfb net1 vdd1v2 sg13_lv_pmos w=2.88u l=0.13u ng=12 m=1 mm_ok=1
+XM3 p2 net3 net4 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM4 vcap pb1 p2 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM5 p1 vpb net6 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM9 nb1 vfb p1 vdd1v2 sg13_lv_pmos w=0.24u l=0.13u ng=1 m=1 mm_ok=1
+XM10 net3 net3 net5 vdd1v2 sg13_lv_pmos w=1.92u l=0.13u ng=8 m=1 mm_ok=1
+XM11 pb1 pb1 net3 vdd1v2 sg13_lv_pmos w=1.92u l=0.13u ng=8 m=1 mm_ok=1
+.ends
+

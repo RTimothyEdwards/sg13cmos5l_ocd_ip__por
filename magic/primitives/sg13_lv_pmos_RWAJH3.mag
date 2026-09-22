@@ -1,0 +1,79 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790015669
+<< error_p >>
+rect -77 -2 -67 40
+rect 25 -2 35 40
+rect -26 -76 -16 -44
+<< nwell >>
+rect -245 -226 245 242
+<< pmos >>
+rect -13 -16 13 54
+<< pdiff >>
+rect -81 40 -13 54
+rect -81 -2 -67 40
+rect -35 -2 -13 40
+rect -81 -16 -13 -2
+rect 13 40 81 54
+rect 13 -2 35 40
+rect 67 -2 81 40
+rect 13 -16 81 -2
+<< pdiffc >>
+rect -67 -2 -35 40
+rect 35 -2 67 40
+<< nsubdiff >>
+rect -183 166 183 180
+rect -183 134 -91 166
+rect 91 134 183 166
+rect -183 120 183 134
+rect -183 72 -123 120
+rect -183 -72 -169 72
+rect -137 -72 -123 72
+rect 123 72 183 120
+rect -183 -104 -123 -72
+rect 123 -72 137 72
+rect 169 -72 183 72
+rect 123 -104 183 -72
+rect -183 -164 183 -104
+<< nsubdiffcont >>
+rect -91 134 91 166
+rect -169 -72 -137 72
+rect 137 -72 169 72
+<< poly >>
+rect -13 54 13 90
+rect -13 -30 13 -16
+rect -30 -44 30 -30
+rect -30 -76 -16 -44
+rect 16 -76 30 -44
+rect -30 -90 30 -76
+<< polycont >>
+rect -16 -76 16 -44
+<< metal1 >>
+rect -101 134 -91 166
+rect 91 134 101 166
+rect -169 72 -137 82
+rect 137 72 169 82
+rect -77 -2 -67 40
+rect -35 -2 -25 40
+rect 25 -2 35 40
+rect 67 -2 77 40
+rect -169 -82 -137 -72
+rect -26 -76 -16 -44
+rect 16 -76 26 -44
+rect 137 -82 169 -72
+<< labels >>
+rlabel nsubdiff 0 -134 0 -134 0 B
+port 1 nsew
+rlabel pdiffc -51 19 -51 19 0 D
+port 2 nsew
+rlabel pdiffc 51 19 51 19 0 S
+port 3 nsew
+rlabel polycont 0 -60 0 -60 0 G
+port 4 nsew
+<< properties >>
+string FIXED_BBOX -153 -134 153 134
+string gencell sg13_lv_pmos
+string library sg13cmos5l
+string parameters w 0.35 l 0.13 m 1 ng 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 0 tbcov 100 rlcov 100 topc 0 botc 1 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 0 conn_gates 0 gate_ring 0 ccols 1 viasrc 0 viadrn 0 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

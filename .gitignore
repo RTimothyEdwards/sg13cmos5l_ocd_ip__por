@@ -1,0 +1,10 @@
+/.idea/
+/precheck_results/
+*/tmp
+*/*/tmp
+*.hex*
+*.lst
+*.vcd
+*.gtkw
+librelane/runs
+xschem/simulations

@@ -1,0 +1,1848 @@
+
+Circuit 1 cell sg13_lv_nmos and Circuit 2 cell sg13_lv_nmos are black boxes.
+Warning: Equate pins:  cell sg13_lv_nmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_lv_nmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_lv_nmos                                                      |Circuit 2: sg13_lv_nmos                                                      
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+1                                                                            |1                                                                            
+2                                                                            |2                                                                            
+3                                                                            |3                                                                            
+4                                                                            |4                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_lv_nmos and sg13_lv_nmos are equivalent.
+
+Circuit 1 cell sg13_lv_pmos and Circuit 2 cell sg13_lv_pmos are black boxes.
+Warning: Equate pins:  cell sg13_lv_pmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_lv_pmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_lv_pmos                                                      |Circuit 2: sg13_lv_pmos                                                      
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+1                                                                            |1                                                                            
+2                                                                            |2                                                                            
+3                                                                            |3                                                                            
+4                                                                            |4                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_lv_pmos and sg13_lv_pmos are equivalent.
+
+Circuit 1 cell rhigh and Circuit 2 cell rhigh are black boxes.
+Warning: Equate pins:  cell rhigh is a placeholder, treated as a black box.
+Warning: Equate pins:  cell rhigh is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: rhigh                                                             |Circuit 2: rhigh                                                             
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+1                                                                            |1                                                                            
+2                                                                            |2                                                                            
+3                                                                            |3                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rhigh and rhigh are equivalent.
+
+Circuit 1 cell cap_cmomf and Circuit 2 cell cap_cmomf are black boxes.
+Warning: Equate pins:  cell cap_cmomf is a placeholder, treated as a black box.
+Warning: Equate pins:  cell cap_cmomf is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: cap_cmomf                                                         |Circuit 2: cap_cmomf                                                         
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+1                                                                            |1                                                                            
+2                                                                            |2                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cap_cmomf and cap_cmomf are equivalent.
+
+Circuit 1 cell dantenna and Circuit 2 cell dantenna are black boxes.
+Warning: Equate pins:  cell dantenna is a placeholder, treated as a black box.
+Warning: Equate pins:  cell dantenna is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: dantenna                                                          |Circuit 2: dantenna                                                          
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+1                                                                            |1                                                                            
+2                                                                            |2                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes dantenna and dantenna are equivalent.
+Flattening unmatched subcell sg13_lv_nmos_5X2BDS in circuit por_stepdown (1)(2 instances)
+Flattening unmatched subcell sg13_lv_nmos_VHRE9V in circuit por_stepdown (1)(2 instances)
+Flattening unmatched subcell sg13_lv_pmos_4AKZGL in circuit por_stepdown (1)(2 instances)
+Flattening unmatched subcell sg13_lv_pmos_JRRYKH in circuit por_stepdown (1)(2 instances)
+
+Removing zero-valued device vsrc from cell por_stepdown (0) makes a better match
+Removing zero-valued device vsrc from cell por_stepdown (0) makes a better match
+Removing zero-valued device vsrc from cell por_stepdown (0) makes a better match
+Removing zero-valued device vsrc from cell por_stepdown (0) makes a better match
+Removing zero-valued device vsrc from cell por_stepdown (0) makes a better match
+Making another compare attempt.
+
+Class por_stepdown (1):  Merged 73 parallel devices.
+Subcircuit summary:
+Circuit 1: por_stepdown                                                      |Circuit 2: por_stepdown                                                      
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_nmos (46->10)                                                        |sg13_lv_nmos (10)                                                            
+sg13_lv_pmos (52->15)                                                        |sg13_lv_pmos (16->15)                                                        
+Number of devices: 25                                                        |Number of devices: 25                                                        
+Number of nets: 15                                                           |Number of nets: 15                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: por_stepdown                                                      |Circuit 2: por_stepdown                                                      
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+vcap                                                                         |vcap                                                                         
+vfb                                                                          |vfb                                                                          
+vdd1v2                                                                       |vdd1v2                                                                       
+vref                                                                         |vref                                                                         
+vpb                                                                          |vpb                                                                          
+nbias                                                                        |nbias                                                                        
+vss                                                                          |vss                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes por_stepdown and por_stepdown are equivalent.
+Flattening unmatched subcell sg13_lv_pmos_KE4EUN in circuit por_1v2_schmitt_inv (1)(1 instance)
+Flattening unmatched subcell sg13_lv_pmos_KPMAU6 in circuit por_1v2_schmitt_inv (1)(1 instance)
+Flattening unmatched subcell sg13_lv_pmos_RWAJH3 in circuit por_1v2_schmitt_inv (1)(1 instance)
+Flattening unmatched subcell sg13_lv_nmos_LT8DKY in circuit por_1v2_schmitt_inv (1)(2 instances)
+Flattening unmatched subcell sg13_lv_nmos_GT3QPP in circuit por_1v2_schmitt_inv (1)(1 instance)
+
+Class por_1v2_schmitt_inv (1):  Merged 5 parallel devices.
+Subcircuit summary:
+Circuit 1: por_1v2_schmitt_inv                                               |Circuit 2: por_1v2_schmitt_inv                                               
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_pmos (6->3)                                                          |sg13_lv_pmos (3)                                                             
+sg13_lv_nmos (5->3)                                                          |sg13_lv_nmos (3)                                                             
+Number of devices: 6                                                         |Number of devices: 6                                                         
+Number of nets: 6                                                            |Number of nets: 6                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: por_1v2_schmitt_inv                                               |Circuit 2: por_1v2_schmitt_inv                                               
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+out                                                                          |out                                                                          
+in                                                                           |in                                                                           
+vss                                                                          |vss                                                                          
+vdd1v2                                                                       |vdd1v2                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes por_1v2_schmitt_inv and por_1v2_schmitt_inv are equivalent.
+
+Subcircuit summary:
+Circuit 1: sg13cmos5l_decap_4                                                |Circuit 2: sg13cmos5l_decap_4                                                
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_pmos (1)                                                             |sg13_lv_pmos (1)                                                             
+sg13_lv_nmos (1)                                                             |sg13_lv_nmos (1)                                                             
+Number of devices: 2                                                         |Number of devices: 2                                                         
+Number of nets: 2                                                            |Number of nets: 2                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_decap_4                                                |Circuit 2: sg13cmos5l_decap_4                                                
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+VSS                                                                          |VSS                                                                          
+VDD                                                                          |VDD                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_decap_4 and sg13cmos5l_decap_4 are equivalent.
+Flattening unmatched subcell sg13_lv_nmos_AGXAPYY in circuit por_amp (1)(1 instance)
+Flattening unmatched subcell sg13_lv_pmos_X27YSC in circuit por_amp (1)(2 instances)
+Flattening unmatched subcell sg13_lv_nmos_AGXAPYX in circuit por_amp (1)(1 instance)
+
+Class por_amp (1):  Merged 59 parallel devices.
+Subcircuit summary:
+Circuit 1: por_amp                                                           |Circuit 2: por_amp                                                           
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_nmos (52->6)                                                         |sg13_lv_nmos (6)                                                             
+sg13_lv_pmos (16->3)                                                         |sg13_lv_pmos (3)                                                             
+Number of devices: 9                                                         |Number of devices: 9                                                         
+Number of nets: 10                                                           |Number of nets: 10                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: por_amp                                                           |Circuit 2: por_amp                                                           
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+vdd1v2                                                                       |vdd1v2                                                                       
+out                                                                          |out                                                                          
+nbias                                                                        |nbias                                                                        
+inp                                                                          |inp                                                                          
+inn                                                                          |inn                                                                          
+ena                                                                          |ena                                                                          
+vss                                                                          |vss                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes por_amp and por_amp are equivalent.
+
+Class sg13cmos5l_inv_4 (1):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: sg13cmos5l_inv_4                                                  |Circuit 2: sg13cmos5l_inv_4                                                  
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_nmos (4->1)                                                          |sg13_lv_nmos (1)                                                             
+sg13_lv_pmos (4->1)                                                          |sg13_lv_pmos (1)                                                             
+Number of devices: 2                                                         |Number of devices: 2                                                         
+Number of nets: 4                                                            |Number of nets: 4                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_inv_4                                                  |Circuit 2: sg13cmos5l_inv_4                                                  
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+Y                                                                            |Y                                                                            
+A                                                                            |A                                                                            
+VDD                                                                          |VDD                                                                          
+VSS                                                                          |VSS                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_inv_4 and sg13cmos5l_inv_4 are equivalent.
+
+Class sg13cmos5l_buf_16 (1):  Merged 40 parallel devices.
+Subcircuit summary:
+Circuit 1: sg13cmos5l_buf_16                                                 |Circuit 2: sg13cmos5l_buf_16                                                 
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+sg13_lv_pmos (22->2)                                                         |sg13_lv_pmos (2)                                                             
+sg13_lv_nmos (22->2)                                                         |sg13_lv_nmos (2)                                                             
+Number of devices: 4                                                         |Number of devices: 4                                                         
+Number of nets: 5                                                            |Number of nets: 5                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_buf_16                                                 |Circuit 2: sg13cmos5l_buf_16                                                 
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+A                                                                            |A                                                                            
+X                                                                            |X                                                                            
+VSS                                                                          |VSS                                                                          
+VDD                                                                          |VDD                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_buf_16 and sg13cmos5l_buf_16 are equivalent.
+Flattening unmatched subcell rhigh_MGZFWD in circuit sg13cmos5l_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell cap_cmomf_MKAUQG in circuit sg13cmos5l_ocd_ip__por (1)(16 instances)
+Flattening unmatched subcell cap_cmomf_7YMNSS in circuit sg13cmos5l_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell dantenna_WMFCS7 in circuit sg13cmos5l_ocd_ip__por (1)(1 instance)
+Flattening unmatched subcell cap_cmomf_T2STT2 in circuit sg13cmos5l_ocd_ip__por (1)(2 instances)
+
+Class sg13cmos5l_ocd_ip__por (1):  Merged 17 parallel devices.
+Class sg13cmos5l_ocd_ip__por (1):  Merged 106 series devices.
+Class sg13cmos5l_ocd_ip__por (0):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: sg13cmos5l_ocd_ip__por                                            |Circuit 2: sg13cmos5l_ocd_ip__por                                            
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+rhigh (108->2)                                                               |rhigh (2)                                                                    
+por_stepdown (1)                                                             |por_stepdown (1)                                                             
+cap_cmomf (20->3)                                                            |cap_cmomf (20->3)                                                            
+dantenna (1)                                                                 |dantenna (1)                                                                 
+por_1v2_schmitt_inv (1)                                                      |por_1v2_schmitt_inv (1)                                                      
+sg13cmos5l_decap_4 (1)                                                       |sg13cmos5l_decap_4 (1)                                                       
+por_amp (1)                                                                  |por_amp (1)                                                                  
+sg13cmos5l_inv_4 (1)                                                         |sg13cmos5l_inv_4 (1)                                                         
+sg13cmos5l_buf_16 (2)                                                        |sg13cmos5l_buf_16 (2)                                                        
+Number of devices: 13                                                        |Number of devices: 13                                                        
+Number of nets: 12                                                           |Number of nets: 12                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+ w circuit1: 2e-05   circuit2: 5e-05   (delta=85.7%, cutoff=1%)
+ l circuit1: 2e-05   circuit2: 1.4e-05   (delta=35.3%, cutoff=1%)
+ subblock circuit1: 0   circuit2: 1   
+ M circuit1: 1   circuit2: 2   (delta=1, cutoff=0)
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+ M circuit1: 1   circuit2: 16   (delta=15, cutoff=0)
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+ w circuit1: 2e-05   circuit2: 7.8e-07   (delta=185%, cutoff=1%)
+ l circuit1: 2e-05   circuit2: 7.8e-07   (delta=185%, cutoff=1%)
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+Property mmin in circuit1 has no matching property in circuit2
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+Property mmax in circuit1 has no matching property in circuit2
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+Property subblock in circuit1 has no matching property in circuit2
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 vs. cap_cmomf:C1:
+ w circuit1: 2e-05   circuit2: 5e-05   (delta=85.7%, cutoff=1%)
+ l circuit1: 2e-05   circuit2: 1.4e-05   (delta=35.3%, cutoff=1%)
+ mmin circuit1: 1   circuit2: 3   (delta=100%, cutoff=1%)
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance /cap_cmomf_MKAUQG_0[0]/cap_cmomf:0 network:
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 2e-05
+  l = 2e-05
+  mmin = 1
+  mmax = 4
+  subblock = 0
+  mm_ok = 1
+  w = 50
+  l = 14
+  mmin = 1
+  mmax = 4
+  subblock = 1
+  mm_ok = 1
+  M = 2
+Circuit 2 instance cap_cmomf:C1 network:
+  mm_ok = 1
+  m = 2
+  subblock = 1
+  mmax = 4
+  mmin = 1
+  l = 1.4e-05
+  w = 5e-05
+  mm_ok = 1
+  m = 16
+  subblock = 0
+  mmax = 4
+  mmin = 1
+  l = 2e-05
+  w = 2e-05
+
+Subcircuit pins:
+Circuit 1: sg13cmos5l_ocd_ip__por                                            |Circuit 2: sg13cmos5l_ocd_ip__por                                            
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+por                                                                          |por                                                                          
+porb                                                                         |porb                                                                         
+ena                                                                          |ena                                                                          
+por_unbuf                                                                    |por_unbuf                                                                    
+vdd1v2                                                                       |vdd1v2                                                                       
+vss                                                                          |vss                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13cmos5l_ocd_ip__por and sg13cmos5l_ocd_ip__por are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ sg13cmos5l_ocd_ip__por

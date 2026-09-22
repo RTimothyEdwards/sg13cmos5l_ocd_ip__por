@@ -1,0 +1,66 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790034522
+<< error_p >>
+rect -31 -40 31 40
+<< pwell >>
+rect -209 -209 209 209
+<< psubdiff >>
+rect -147 133 147 147
+rect -147 101 -55 133
+rect 55 101 147 133
+rect -147 87 147 101
+rect -147 55 -87 87
+rect -147 -55 -133 55
+rect -101 -55 -87 55
+rect 87 55 147 87
+rect -147 -87 -87 -55
+rect 87 -55 101 55
+rect 133 -55 147 55
+rect 87 -87 147 -55
+rect -147 -101 147 -87
+rect -147 -133 -55 -101
+rect 55 -133 147 -101
+rect -147 -147 147 -133
+<< psubdiffcont >>
+rect -55 101 55 133
+rect -133 -55 -101 55
+rect 101 -55 133 55
+rect -55 -133 55 -101
+<< ndiode >>
+rect -45 31 45 45
+rect -45 -31 -31 31
+rect 31 -31 45 31
+rect -45 -45 45 -31
+<< ndiodecont >>
+rect -31 -31 31 31
+<< metal1 >>
+rect -133 101 -55 133
+rect 55 101 133 133
+rect -133 55 -101 101
+rect 101 55 133 101
+rect -41 31 41 32
+rect -41 -31 -31 31
+rect 31 -31 41 31
+rect -41 -32 41 -31
+rect -133 -101 -101 -55
+rect 101 -101 133 -55
+rect -133 -133 -55 -101
+rect 55 -133 133 -101
+<< via1 >>
+rect -31 -31 31 31
+<< metal2 >>
+rect -31 31 31 40
+rect -31 -40 31 -31
+<< labels >>
+rlabel psubdiffcont 0 -117 0 -117 0 D2
+port 1 nsew
+rlabel ndiodecont 0 0 0 0 0 D1
+port 2 nsew
+<< properties >>
+string FIXED_BBOX -117 -117 117 117
+string gencell dantenna
+string library sg13cmos5l
+string parameters w 0.45 l 0.45 area 202.5m peri 1.8 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 class diode elc 1 erc 1 etc 1 ebc 1 doverlap 0 doports 1 full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

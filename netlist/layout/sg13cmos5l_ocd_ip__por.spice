@@ -1,0 +1,472 @@
+* NGSPICE file created from sg13cmos5l_ocd_ip__por.ext - technology: ihp-sg13cmos5l
+
+.subckt rhigh_MGZFWD B R1_0 R2_0 R1_1 R2_1 R1_2 R2_2 R1_3 R2_3 R1_4 R2_4 R1_5 R2_5
++ R1_6 R2_6 R1_7 R2_7 R1_8 R2_8 R1_9 R2_9 R1_10 R2_10 R1_11 R2_11 R1_12 R2_12 R1_13
++ R2_13 R1_14 R2_14 R1_15 R2_15 R1_16 R2_16 R1_17 R2_17 R1_18 R2_18 R1_19 R2_19 R1_20
++ R2_20 R1_21 R2_21 R1_22 R2_22 R1_23 R2_23 R1_24 R2_24 R1_25 R2_25 R1_26 R2_26 R1_27
++ R2_27 R1_28 R2_28 R1_29 R2_29 R1_30 R2_30 R1_31 R2_31 R1_32 R2_32 R1_33 R2_33 R1_34
++ R2_34 R1_35 R2_35 R1_36 R2_36 R1_37 R2_37 R1_38 R2_38 R1_39 R2_39 R1_40 R2_40 R1_41
++ R2_41 R1_42 R2_42 R1_43 R2_43 R1_44 R2_44 R1_45 R2_45 R1_46 R2_46 R1_47 R2_47 R1_48
++ R2_48 R1_49 R2_49 R1_50 R2_50 R1_51 R2_51 R1_52 R2_52 R1_53 R2_53
+X0 R1_28 R2_28 B rhigh l=16.82u w=0.5u
+X1 R1_44 R2_44 B rhigh l=16.82u w=0.5u
+X2 R1_52 R2_52 B rhigh l=16.82u w=0.5u
+X3 R1_18 R2_18 B rhigh l=16.82u w=0.5u
+X4 R1_19 R2_19 B rhigh l=16.82u w=0.5u
+X5 R1_29 R2_29 B rhigh l=16.82u w=0.5u
+X6 R1_4 R2_4 B rhigh l=16.82u w=0.5u
+X7 R1_17 R2_17 B rhigh l=16.82u w=0.5u
+X8 R1_42 R2_42 B rhigh l=16.82u w=0.5u
+X9 R1_2 R2_2 B rhigh l=16.82u w=0.5u
+X10 R1_3 R2_3 B rhigh l=16.82u w=0.5u
+X11 R1_13 R2_13 B rhigh l=16.82u w=0.5u
+X12 R1_14 R2_14 B rhigh l=16.82u w=0.5u
+X13 R1_12 R2_12 B rhigh l=16.82u w=0.5u
+X14 R1_25 R2_25 B rhigh l=16.82u w=0.5u
+X15 R1_26 R2_26 B rhigh l=16.82u w=0.5u
+X16 R1_15 R2_15 B rhigh l=16.82u w=0.5u
+X17 R1_16 R2_16 B rhigh l=16.82u w=0.5u
+X18 R1_1 R2_1 B rhigh l=16.82u w=0.5u
+X19 R1_45 R2_45 B rhigh l=16.82u w=0.5u
+X20 R1_0 R2_0 B rhigh l=16.82u w=0.5u
+X21 R1_30 R2_30 B rhigh l=16.82u w=0.5u
+X22 R1_46 R2_46 B rhigh l=16.82u w=0.5u
+X23 R1_31 R2_31 B rhigh l=16.82u w=0.5u
+X24 R1_10 R2_10 B rhigh l=16.82u w=0.5u
+X25 R1_11 R2_11 B rhigh l=16.82u w=0.5u
+X26 R1_27 R2_27 B rhigh l=16.82u w=0.5u
+X27 R1_32 R2_32 B rhigh l=16.82u w=0.5u
+X28 R1_33 R2_33 B rhigh l=16.82u w=0.5u
+X29 R1_34 R2_34 B rhigh l=16.82u w=0.5u
+X30 R1_48 R2_48 B rhigh l=16.82u w=0.5u
+X31 R1_23 R2_23 B rhigh l=16.82u w=0.5u
+X32 R1_24 R2_24 B rhigh l=16.82u w=0.5u
+X33 R1_49 R2_49 B rhigh l=16.82u w=0.5u
+X34 R1_22 R2_22 B rhigh l=16.82u w=0.5u
+X35 R1_47 R2_47 B rhigh l=16.82u w=0.5u
+X36 R1_8 R2_8 B rhigh l=16.82u w=0.5u
+X37 R1_9 R2_9 B rhigh l=16.82u w=0.5u
+X38 R1_7 R2_7 B rhigh l=16.82u w=0.5u
+X39 R1_35 R2_35 B rhigh l=16.82u w=0.5u
+X40 R1_36 R2_36 B rhigh l=16.82u w=0.5u
+X41 R1_50 R2_50 B rhigh l=16.82u w=0.5u
+X42 R1_20 R2_20 B rhigh l=16.82u w=0.5u
+X43 R1_21 R2_21 B rhigh l=16.82u w=0.5u
+X44 R1_51 R2_51 B rhigh l=16.82u w=0.5u
+X45 R1_6 R2_6 B rhigh l=16.82u w=0.5u
+X46 R1_40 R2_40 B rhigh l=16.82u w=0.5u
+X47 R1_5 R2_5 B rhigh l=16.82u w=0.5u
+X48 R1_41 R2_41 B rhigh l=16.82u w=0.5u
+X49 R1_37 R2_37 B rhigh l=16.82u w=0.5u
+X50 R1_38 R2_38 B rhigh l=16.82u w=0.5u
+X51 R1_39 R2_39 B rhigh l=16.82u w=0.5u
+X52 R1_53 R2_53 B rhigh l=16.82u w=0.5u
+X53 R1_43 R2_43 B rhigh l=16.82u w=0.5u
+.ends
+
+.subckt sg13_lv_nmos_5X2BDS B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 D8 G8
++ S9 G9 D10 G10 S11 G11 D12 G12 S13 G13 D14 S14 G14
+X0 S3 G2 D2 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X1 S9 G8 D8 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X2 D8 G7 S7 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X3 D2 G1 S1 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X4 D10 G9 S9 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X5 S11 G10 D10 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X6 D12 G11 S11 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X7 S7 G6 D6 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X8 S1 G0 D0 B sg13_lv_nmos ad=61.8f pd=0.74u as=0.1068p ps=1.34u w=0.24u l=0.13u
+X9 D6 G5 S5 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X10 S13 G12 D12 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X11 D14 G13 S13 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X12 S5 G4 D4 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X13 S14 G14 D14 B sg13_lv_nmos ad=0.1068p pd=1.34u as=61.8f ps=0.74u w=0.24u l=0.13u
+X14 D4 G3 S3 B sg13_lv_nmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+.ends
+
+.subckt sg13_lv_nmos_VHRE9V B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 a_370_n47#
+X0 D6 G5 S5 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X1 S7 G6 D6 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X2 a_370_n47# G7 S7 B sg13_lv_nmos ad=0.1598p pd=1.62u as=89.3f ps=0.85u w=0.47u l=0.13u
+X3 D4 G3 S3 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X4 S5 G4 D4 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X5 S3 G2 D2 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X6 D2 G1 S1 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X7 S1 G0 D0 B sg13_lv_nmos ad=89.3f pd=0.85u as=0.1598p ps=1.62u w=0.47u l=0.13u
+.ends
+
+.subckt sg13_lv_pmos_4AKZGL B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 D8 G8
++ S9 G9 D10 G10 S11 G11 D12 G12 S13 G13 D14 S14 G14
+X0 S3 G2 D2 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X1 S9 G8 D8 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X2 D8 G7 S7 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X3 D2 G1 S1 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X4 D10 G9 S9 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X5 S11 G10 D10 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X6 D12 G11 S11 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X7 S7 G6 D6 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X8 S1 G0 D0 B sg13_lv_pmos ad=61.8f pd=0.74u as=0.1068p ps=1.34u w=0.24u l=0.13u
+X9 D6 G5 S5 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X10 S13 G12 D12 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X11 S5 G4 D4 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X12 D14 G13 S13 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X13 S14 G14 D14 B sg13_lv_pmos ad=0.1068p pd=1.34u as=61.8f ps=0.74u w=0.24u l=0.13u
+X14 D4 G3 S3 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+.ends
+
+.subckt sg13_lv_pmos_JRRYKH B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 D8 G8
++ S9 G9 D10 S10 G10
+X0 S1 G0 D0 B sg13_lv_pmos ad=61.8f pd=0.74u as=0.1068p ps=1.34u w=0.24u l=0.13u
+X1 S7 G6 D6 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X2 D6 G5 S5 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X3 D8 G7 S7 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X4 S9 G8 D8 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X5 D10 G9 S9 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X6 S5 G4 D4 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X7 D4 G3 S3 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X8 S10 G10 D10 B sg13_lv_pmos ad=0.1068p pd=1.34u as=61.8f ps=0.74u w=0.24u l=0.13u
+X9 S3 G2 D2 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+X10 D2 G1 S1 B sg13_lv_pmos ad=61.8f pd=0.74u as=61.8f ps=0.74u w=0.24u l=0.13u
+.ends
+
+.subckt por_stepdown vdd1v2 vss vref nbias vpb vfb vcap
+Xsg13_lv_nmos_5X2BDS_0 vss vss vss sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS_0/S9 vss sg13_lv_nmos_5X2BDS_1/D14
++ sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_nmos_5X2BDS_0/S9 sg13_lv_nmos_5X2BDS
+Xsg13_lv_nmos_5X2BDS_1 vss vss vss vss sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9
++ sg13_lv_nmos_5X2BDS_1/G9 vss sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9
++ vss sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 vss
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 vss sg13_lv_nmos_5X2BDS_1/G9
++ sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9 vss sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/G9
++ sg13_lv_nmos_5X2BDS_1/G9 vss sg13_lv_nmos_5X2BDS_1/G9 sg13_lv_nmos_5X2BDS_1/D14
++ vss vss sg13_lv_nmos_5X2BDS
+Xsg13_lv_nmos_VHRE9V_0 vss nbias vref vref vref nbias vref vref vref nbias vref vref
++ vref nbias vref vref vref nbias sg13_lv_nmos_VHRE9V
+Xsg13_lv_nmos_VHRE9V_1 vss nbias nbias vss nbias nbias nbias vss nbias nbias nbias
++ vss nbias nbias nbias vss nbias nbias sg13_lv_nmos_VHRE9V
+Xsg13_lv_pmos_4AKZGL_0 vdd1v2 vdd1v2 vdd1v2 vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb
++ vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb
++ vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb
++ vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D8 vpb vdd1v2 vpb sg13_lv_pmos_4AKZGL_1/D14 vdd1v2
++ vdd1v2 sg13_lv_pmos_4AKZGL
+Xsg13_lv_pmos_JRRYKH_0 vdd1v2 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/D8
++ sg13_lv_pmos_JRRYKH_1/D8 vdd1v2 sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/D8
++ sg13_lv_pmos_JRRYKH_1/D8 vdd1v2 sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/D8
++ sg13_lv_pmos_JRRYKH_1/D8 vdd1v2 sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/D8
++ sg13_lv_pmos_JRRYKH_1/D8 vdd1v2 sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/D10
++ vdd1v2 vdd1v2 sg13_lv_pmos_JRRYKH
+Xsg13_lv_pmos_4AKZGL_1 vdd1v2 vdd1v2 vdd1v2 vfb vfb sg13_lv_pmos_4AKZGL_1/D8 vfb vfb
++ vfb sg13_lv_pmos_4AKZGL_1/D8 vfb vfb vfb sg13_lv_pmos_4AKZGL_1/D8 vfb vfb vfb sg13_lv_pmos_4AKZGL_1/D8
++ vfb vfb vfb sg13_lv_pmos_4AKZGL_1/D8 vfb vfb vfb sg13_lv_pmos_4AKZGL_1/D8 vfb vfb
++ vdd1v2 sg13_lv_pmos_4AKZGL_1/D14 sg13_lv_nmos_5X2BDS_0/S9 vfb sg13_lv_pmos_4AKZGL
+Xsg13_lv_pmos_JRRYKH_1 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9
++ sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9
++ sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9
++ sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9
++ sg13_lv_pmos_JRRYKH_1/D8 sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH_1/S9 vdd1v2
++ sg13_lv_pmos_JRRYKH_1/D10 vcap sg13_lv_pmos_JRRYKH_1/S9 sg13_lv_pmos_JRRYKH
+.ends
+
+.subckt cap_cmomf_MKAUQG c1 c2
+X0 c1 c2 cap_cmomf mm_ok=1 subblock=0 mmax=4 mmin=1 l=20u w=20u
+.ends
+
+.subckt cap_cmomf_7YMNSS c1 c2
+X0 c1 c2 cap_cmomf mm_ok=1 subblock=0 mmax=4 mmin=3 l=14u w=50u
+.ends
+
+.subckt dantenna_WMFCS7 D2 D1
+X0 D2 D1 dantenna l=0.78u w=0.78u
+.ends
+
+.subckt sg13_lv_pmos_KE4EUN B D S G
+X0 S G D B sg13_lv_pmos ad=0.476p pd=3.48u as=0.476p ps=3.48u w=1.4u l=0.26u
+.ends
+
+.subckt sg13_lv_pmos_KPMAU6 B D0 G0 S1 G1 D2 G2 S3 G3 a_166_n16#
+X0 D2 G1 S1 B sg13_lv_pmos ad=66.49999f pd=0.73u as=66.49999f ps=0.73u w=0.35u l=0.13u
+X1 S3 G2 D2 B sg13_lv_pmos ad=66.49999f pd=0.73u as=66.49999f ps=0.73u w=0.35u l=0.13u
+X2 S1 G0 D0 B sg13_lv_pmos ad=66.49999f pd=0.73u as=0.119p ps=1.38u w=0.35u l=0.13u
+X3 a_166_n16# G3 S3 B sg13_lv_pmos ad=0.119p pd=1.38u as=66.49999f ps=0.73u w=0.35u l=0.13u
+.ends
+
+.subckt sg13_lv_pmos_RWAJH3 B D S G
+X0 S G D B sg13_lv_pmos ad=0.119p pd=1.38u as=0.119p ps=1.38u w=0.35u l=0.13u
+.ends
+
+.subckt sg13_lv_nmos_LT8DKY B D0 G0 S1 G1 a_64_n54#
+X0 S1 G0 D0 B sg13_lv_nmos ad=66.49999f pd=0.73u as=0.119p ps=1.38u w=0.35u l=0.13u
+X1 a_64_n54# G1 S1 B sg13_lv_nmos ad=0.119p pd=1.38u as=66.49999f ps=0.73u w=0.35u l=0.13u
+.ends
+
+.subckt sg13_lv_nmos_GT3QPP B D S G
+X0 S G D B sg13_lv_nmos ad=0.952p pd=6.28u as=0.952p ps=6.28u w=2.8u l=0.26u
+.ends
+
+.subckt por_1v2_schmitt_inv vdd1v2 in out vss
+Xsg13_lv_pmos_KE4EUN_0 vdd1v2 sg13_lv_pmos_RWAJH3_0/D vss out sg13_lv_pmos_KE4EUN
+Xsg13_lv_pmos_KPMAU6_0 vdd1v2 vdd1v2 in sg13_lv_pmos_RWAJH3_0/D in vdd1v2 in sg13_lv_pmos_RWAJH3_0/D
++ in vdd1v2 sg13_lv_pmos_KPMAU6
+Xsg13_lv_pmos_RWAJH3_0 vdd1v2 sg13_lv_pmos_RWAJH3_0/D out in sg13_lv_pmos_RWAJH3
+Xsg13_lv_nmos_LT8DKY_0 vss vss in sg13_lv_nmos_GT3QPP_0/D in vss sg13_lv_nmos_LT8DKY
+Xsg13_lv_nmos_LT8DKY_1 vss sg13_lv_nmos_GT3QPP_0/D in out in sg13_lv_nmos_GT3QPP_0/D
++ sg13_lv_nmos_LT8DKY
+Xsg13_lv_nmos_GT3QPP_0 vss sg13_lv_nmos_GT3QPP_0/D vdd1v2 out sg13_lv_nmos_GT3QPP
+.ends
+
+.subckt cap_cmomf_T2STT2 sub c1 c2
+X0 c1 c2 cap_cmomf mm_ok=1 subblock=1 mmax=4, mmin=1 l=14.000 w=50.000
+.ends
+
+.subckt sg13cmos5l_decap_4 VDD VSS
+X0 VDD VSS VDD VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0 ps=0 w=1u l=1u
+X1 VSS VDD VSS VSS sg13_lv_nmos ad=0.1428p pd=1.52u as=0 ps=0 w=0.42u l=1u
+.ends
+
+.subckt sg13_lv_nmos_AGXAPYY B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 D8
++ G8 S9 G9 D10 G10 S11 G11 D12 G12 S13 G13 D14 G14 S15 G15 D16 G16 S17 G17 D18 G18
++ S19 G19 D20 G20 S21 G21 D22 G22 S23 G23 D24 G24 S25 G25 a_1288_n47#
+X0 D6 G5 S5 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X1 S3 G2 D2 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X2 D4 G3 S3 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X3 S5 G4 D4 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X4 D2 G1 S1 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X5 S1 G0 D0 B sg13_lv_nmos ad=89.3f pd=0.85u as=0.1598p ps=1.62u w=0.47u l=0.13u
+X6 S15 G14 D14 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X7 D16 G15 S15 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X8 S17 G16 D16 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X9 D18 G17 S17 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X10 S13 G12 D12 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X11 S19 G18 D18 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X12 D20 G19 S19 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X13 S21 G20 D20 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X14 D14 G13 S13 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X15 D22 G21 S21 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X16 S23 G22 D22 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X17 D12 G11 S11 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X18 S11 G10 D10 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X19 S9 G8 D8 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X20 D10 G9 S9 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X21 D24 G23 S23 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X22 S25 G24 D24 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X23 D8 G7 S7 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X24 a_1288_n47# G25 S25 B sg13_lv_nmos ad=0.1598p pd=1.62u as=89.3f ps=0.85u w=0.47u l=0.13u
+X25 S7 G6 D6 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+.ends
+
+.subckt sg13_lv_pmos_X27YSC B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 a_370_n47#
+X0 D6 G5 S5 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X1 S7 G6 D6 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X2 a_370_n47# G7 S7 B sg13_lv_pmos ad=0.1598p pd=1.62u as=89.3f ps=0.85u w=0.47u l=0.13u
+X3 D4 G3 S3 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X4 S5 G4 D4 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X5 S3 G2 D2 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X6 D2 G1 S1 B sg13_lv_pmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X7 S1 G0 D0 B sg13_lv_pmos ad=89.3f pd=0.85u as=0.1598p ps=1.62u w=0.47u l=0.13u
+.ends
+
+.subckt sg13_lv_nmos_AGXAPYX B D0 G0 S1 G1 D2 G2 S3 G3 D4 G4 S5 G5 D6 G6 S7 G7 D8
++ G8 S9 G9 D10 G10 S11 G11 D12 G12 S13 G13 D14 G14 S15 G15 D16 G16 S17 G17 D18 G18
++ S19 G19 D20 G20 S21 G21 D22 G22 S23 G23 D24 G24 S25 G25 a_1288_n47#
+X0 D6 G5 S5 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X1 S3 G2 D2 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X2 D4 G3 S3 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X3 S5 G4 D4 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X4 D2 G1 S1 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X5 S1 G0 D0 B sg13_lv_nmos ad=89.3f pd=0.85u as=0.1598p ps=1.62u w=0.47u l=0.13u
+X6 S15 G14 D14 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X7 D16 G15 S15 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X8 S17 G16 D16 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X9 D18 G17 S17 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X10 S13 G12 D12 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X11 S19 G18 D18 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X12 D20 G19 S19 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X13 S21 G20 D20 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X14 D14 G13 S13 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X15 D22 G21 S21 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X16 S23 G22 D22 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X17 D12 G11 S11 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X18 S11 G10 D10 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X19 S9 G8 D8 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X20 D10 G9 S9 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X21 D24 G23 S23 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X22 S25 G24 D24 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X23 D8 G7 S7 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+X24 a_1288_n47# G25 S25 B sg13_lv_nmos ad=0.1598p pd=1.62u as=89.3f ps=0.85u w=0.47u l=0.13u
+X25 S7 G6 D6 B sg13_lv_nmos ad=89.3f pd=0.85u as=89.3f ps=0.85u w=0.47u l=0.13u
+.ends
+
+.subckt por_amp vdd1v2 inn inp ena vss nbias out
+Xsg13_lv_nmos_AGXAPYY_0 vss vss vss vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss nbias sg13_lv_nmos_AGXAPYY_0/D8 ena sg13_lv_nmos_AGXAPYY_0/S7
++ ena sg13_lv_nmos_AGXAPYY_0/D8 nbias vss vss vss sg13_lv_nmos_AGXAPYY
+Xsg13_lv_pmos_X27YSC_0 vdd1v2 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos_X27YSC_1/G6 out sg13_lv_pmos_X27YSC_1/G6
++ vdd1v2 sg13_lv_pmos_X27YSC_1/G6 sg13_lv_pmos_X27YSC_1/G6 sg13_lv_pmos_X27YSC_1/G6
++ vdd1v2 sg13_lv_pmos_X27YSC_1/G6 out sg13_lv_pmos_X27YSC_1/G6 vdd1v2 vdd1v2 vdd1v2
++ sg13_lv_pmos_X27YSC
+Xsg13_lv_pmos_X27YSC_1 vdd1v2 vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos_X27YSC_1/G6 sg13_lv_pmos_X27YSC_1/G6
++ sg13_lv_pmos_X27YSC_1/G6 vdd1v2 sg13_lv_pmos_X27YSC_1/G6 out sg13_lv_pmos_X27YSC_1/G6
++ vdd1v2 sg13_lv_pmos_X27YSC_1/G6 sg13_lv_pmos_X27YSC_1/G6 sg13_lv_pmos_X27YSC_1/G6
++ vdd1v2 vdd1v2 vdd1v2 sg13_lv_pmos_X27YSC
+Xsg13_lv_nmos_AGXAPYX_0 vss vss vss sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 inn out inn sg13_lv_nmos_AGXAPYY_0/S7
++ inp sg13_lv_pmos_X27YSC_1/G6 inp sg13_lv_nmos_AGXAPYY_0/S7 vss vss sg13_lv_nmos_AGXAPYX
+.ends
+
+.subckt sg13cmos5l_inv_4 Y A VDD VSS
+X0 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X1 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X2 VSS A Y VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X3 Y A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X4 VDD A Y VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X5 VSS A Y VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X6 Y A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X7 VDD A Y VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+.ends
+
+.subckt sg13cmos5l_buf_16 X A VDD VSS
+X0 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X1 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X2 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X3 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X4 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X5 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X6 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X7 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X8 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X9 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X10 VSS A a_116_82# VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X11 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X12 VDD A a_116_82# VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X13 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X14 a_116_82# A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X15 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X16 a_116_82# A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X17 a_116_82# A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X18 VSS A a_116_82# VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X19 VSS A a_116_82# VSS sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X20 a_116_82# A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X21 VDD A a_116_82# VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X22 VDD A a_116_82# VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X23 a_116_82# A VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X24 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X25 a_116_82# A VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X26 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X27 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3976p ps=2.95u w=1.12u l=0.13u
+X28 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X29 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X30 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X31 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X32 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X33 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X34 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X35 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X36 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X37 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X38 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X39 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X40 VDD a_116_82# X VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X41 X a_116_82# VSS VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X42 X a_116_82# VDD VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X43 VSS a_116_82# X VSS sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+.ends
+
+.subckt sg13cmos5l_ocd_ip__por vdd1v2 ena por_unbuf vss porb por
+Xrhigh_MGZFWD_0 vss rhigh_MGZFWD_0/R1_1 por_amp_0/inn rhigh_MGZFWD_0/R1_1 rhigh_MGZFWD_0/R2_2
++ rhigh_MGZFWD_0/R1_3 rhigh_MGZFWD_0/R2_2 rhigh_MGZFWD_0/R1_3 rhigh_MGZFWD_0/R2_4
++ rhigh_MGZFWD_0/R1_5 rhigh_MGZFWD_0/R2_4 rhigh_MGZFWD_0/R1_5 rhigh_MGZFWD_0/R2_6
++ rhigh_MGZFWD_0/R1_7 rhigh_MGZFWD_0/R2_6 rhigh_MGZFWD_0/R1_7 rhigh_MGZFWD_0/R2_8
++ rhigh_MGZFWD_0/R1_9 rhigh_MGZFWD_0/R2_8 rhigh_MGZFWD_0/R1_9 rhigh_MGZFWD_0/R2_9
++ rhigh_MGZFWD_0/R1_11 rhigh_MGZFWD_0/R2_9 rhigh_MGZFWD_0/R1_11 rhigh_MGZFWD_0/R2_12
++ rhigh_MGZFWD_0/R1_13 rhigh_MGZFWD_0/R2_12 rhigh_MGZFWD_0/R1_13 rhigh_MGZFWD_0/R2_14
++ rhigh_MGZFWD_0/R1_15 rhigh_MGZFWD_0/R2_14 rhigh_MGZFWD_0/R1_15 rhigh_MGZFWD_0/R2_16
++ rhigh_MGZFWD_0/R1_17 rhigh_MGZFWD_0/R2_16 rhigh_MGZFWD_0/R1_17 rhigh_MGZFWD_0/R2_18
++ rhigh_MGZFWD_0/R1_19 rhigh_MGZFWD_0/R2_18 rhigh_MGZFWD_0/R1_19 rhigh_MGZFWD_0/R2_20
++ rhigh_MGZFWD_0/R1_21 rhigh_MGZFWD_0/R2_20 rhigh_MGZFWD_0/R1_21 rhigh_MGZFWD_0/R2_22
++ rhigh_MGZFWD_0/R1_23 rhigh_MGZFWD_0/R2_22 rhigh_MGZFWD_0/R1_23 rhigh_MGZFWD_0/R2_24
++ rhigh_MGZFWD_0/R1_25 rhigh_MGZFWD_0/R2_24 rhigh_MGZFWD_0/R1_25 rhigh_MGZFWD_0/R2_26
++ rhigh_MGZFWD_0/R1_27 rhigh_MGZFWD_0/R2_26 rhigh_MGZFWD_0/R1_27 rhigh_MGZFWD_0/R2_28
++ rhigh_MGZFWD_0/R1_29 rhigh_MGZFWD_0/R2_28 rhigh_MGZFWD_0/R1_29 rhigh_MGZFWD_0/R2_30
++ rhigh_MGZFWD_0/R1_31 rhigh_MGZFWD_0/R2_30 rhigh_MGZFWD_0/R1_31 rhigh_MGZFWD_0/R2_32
++ rhigh_MGZFWD_0/R1_33 rhigh_MGZFWD_0/R2_32 rhigh_MGZFWD_0/R1_33 rhigh_MGZFWD_0/R2_34
++ rhigh_MGZFWD_0/R1_35 rhigh_MGZFWD_0/R2_34 rhigh_MGZFWD_0/R1_35 rhigh_MGZFWD_0/R2_36
++ rhigh_MGZFWD_0/R1_37 rhigh_MGZFWD_0/R2_36 rhigh_MGZFWD_0/R1_37 rhigh_MGZFWD_0/R2_38
++ rhigh_MGZFWD_0/R1_39 rhigh_MGZFWD_0/R2_38 rhigh_MGZFWD_0/R1_39 rhigh_MGZFWD_0/R2_40
++ rhigh_MGZFWD_0/R1_41 rhigh_MGZFWD_0/R2_40 rhigh_MGZFWD_0/R1_41 rhigh_MGZFWD_0/R2_42
++ rhigh_MGZFWD_0/R1_43 rhigh_MGZFWD_0/R2_42 rhigh_MGZFWD_0/R1_43 rhigh_MGZFWD_0/R2_44
++ rhigh_MGZFWD_0/R1_45 rhigh_MGZFWD_0/R2_44 rhigh_MGZFWD_0/R1_45 rhigh_MGZFWD_0/R2_46
++ rhigh_MGZFWD_0/R1_47 rhigh_MGZFWD_0/R2_46 rhigh_MGZFWD_0/R1_47 rhigh_MGZFWD_0/R2_48
++ rhigh_MGZFWD_0/R1_49 rhigh_MGZFWD_0/R2_48 rhigh_MGZFWD_0/R1_49 rhigh_MGZFWD_0/R2_50
++ rhigh_MGZFWD_0/R1_51 rhigh_MGZFWD_0/R2_50 rhigh_MGZFWD_0/R1_51 rhigh_MGZFWD_0/R2_52
++ rhigh_MGZFWD_0/R1_53 rhigh_MGZFWD_0/R2_52 rhigh_MGZFWD_0/R1_53 vdd1v2 rhigh_MGZFWD
+Xrhigh_MGZFWD_1 vss por_amp_0/inp rhigh_MGZFWD_1/R2_1 rhigh_MGZFWD_1/R1_2 rhigh_MGZFWD_1/R2_1
++ rhigh_MGZFWD_1/R1_2 rhigh_MGZFWD_1/R2_3 rhigh_MGZFWD_1/R1_4 rhigh_MGZFWD_1/R2_3
++ rhigh_MGZFWD_1/R1_4 rhigh_MGZFWD_1/R2_5 rhigh_MGZFWD_1/R1_6 rhigh_MGZFWD_1/R2_5
++ rhigh_MGZFWD_1/R1_6 rhigh_MGZFWD_1/R2_7 rhigh_MGZFWD_1/R1_8 rhigh_MGZFWD_1/R2_7
++ rhigh_MGZFWD_1/R1_8 rhigh_MGZFWD_1/R2_9 rhigh_MGZFWD_1/R1_9 rhigh_MGZFWD_1/R2_9
++ rhigh_MGZFWD_1/R1_9 rhigh_MGZFWD_1/R2_11 rhigh_MGZFWD_1/R1_12 rhigh_MGZFWD_1/R2_11
++ rhigh_MGZFWD_1/R1_12 rhigh_MGZFWD_1/R2_13 rhigh_MGZFWD_1/R1_14 rhigh_MGZFWD_1/R2_13
++ rhigh_MGZFWD_1/R1_14 rhigh_MGZFWD_1/R2_15 rhigh_MGZFWD_1/R1_16 rhigh_MGZFWD_1/R2_15
++ rhigh_MGZFWD_1/R1_16 rhigh_MGZFWD_1/R2_17 rhigh_MGZFWD_1/R1_18 rhigh_MGZFWD_1/R2_17
++ rhigh_MGZFWD_1/R1_18 rhigh_MGZFWD_1/R2_19 rhigh_MGZFWD_1/R1_20 rhigh_MGZFWD_1/R2_19
++ rhigh_MGZFWD_1/R1_20 rhigh_MGZFWD_1/R2_21 rhigh_MGZFWD_1/R1_22 rhigh_MGZFWD_1/R2_21
++ rhigh_MGZFWD_1/R1_22 rhigh_MGZFWD_1/R2_23 rhigh_MGZFWD_1/R1_24 rhigh_MGZFWD_1/R2_23
++ rhigh_MGZFWD_1/R1_24 rhigh_MGZFWD_1/R2_25 rhigh_MGZFWD_1/R1_26 rhigh_MGZFWD_1/R2_25
++ rhigh_MGZFWD_1/R1_26 rhigh_MGZFWD_1/R2_27 rhigh_MGZFWD_1/R1_28 rhigh_MGZFWD_1/R2_27
++ rhigh_MGZFWD_1/R1_28 rhigh_MGZFWD_1/R2_29 rhigh_MGZFWD_1/R1_30 rhigh_MGZFWD_1/R2_29
++ rhigh_MGZFWD_1/R1_30 rhigh_MGZFWD_1/R2_31 rhigh_MGZFWD_1/R1_32 rhigh_MGZFWD_1/R2_31
++ rhigh_MGZFWD_1/R1_32 rhigh_MGZFWD_1/R2_33 rhigh_MGZFWD_1/R1_34 rhigh_MGZFWD_1/R2_33
++ rhigh_MGZFWD_1/R1_34 rhigh_MGZFWD_1/R2_35 rhigh_MGZFWD_1/R1_36 rhigh_MGZFWD_1/R2_35
++ rhigh_MGZFWD_1/R1_36 rhigh_MGZFWD_1/R2_37 rhigh_MGZFWD_1/R1_38 rhigh_MGZFWD_1/R2_37
++ rhigh_MGZFWD_1/R1_38 rhigh_MGZFWD_1/R2_39 rhigh_MGZFWD_1/R1_40 rhigh_MGZFWD_1/R2_39
++ rhigh_MGZFWD_1/R1_40 rhigh_MGZFWD_1/R2_41 rhigh_MGZFWD_1/R1_42 rhigh_MGZFWD_1/R2_41
++ rhigh_MGZFWD_1/R1_42 rhigh_MGZFWD_1/R2_43 rhigh_MGZFWD_1/R1_44 rhigh_MGZFWD_1/R2_43
++ rhigh_MGZFWD_1/R1_44 rhigh_MGZFWD_1/R2_45 rhigh_MGZFWD_1/R1_46 rhigh_MGZFWD_1/R2_45
++ rhigh_MGZFWD_1/R1_46 rhigh_MGZFWD_1/R2_47 rhigh_MGZFWD_1/R1_48 rhigh_MGZFWD_1/R2_47
++ rhigh_MGZFWD_1/R1_48 rhigh_MGZFWD_1/R2_49 rhigh_MGZFWD_1/R1_50 rhigh_MGZFWD_1/R2_49
++ rhigh_MGZFWD_1/R1_50 rhigh_MGZFWD_1/R2_51 rhigh_MGZFWD_1/R1_52 rhigh_MGZFWD_1/R2_51
++ rhigh_MGZFWD_1/R1_52 rhigh_MGZFWD_1/R2_53 vss rhigh_MGZFWD_1/R2_53 rhigh_MGZFWD
+Xpor_stepdown_0 vdd1v2 vss por_amp_0/inn por_amp_0/nbias por_amp_0/out por_amp_0/inp
++ por_stepdown_0/vcap por_stepdown
+Xcap_cmomf_MKAUQG_0[0] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[1] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[2] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[3] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[4] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[5] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[6] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_0[7] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[0] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[1] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[2] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[3] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[4] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[5] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[6] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_MKAUQG_1[7] por_stepdown_0/vcap vss cap_cmomf_MKAUQG
+Xcap_cmomf_7YMNSS_0 por_amp_0/inn por_amp_0/out cap_cmomf_7YMNSS
+Xdantenna_WMFCS7_0 vss ena dantenna_WMFCS7
+Xcap_cmomf_7YMNSS_1 vss vdd1v2 cap_cmomf_7YMNSS
+Xpor_1v2_schmitt_inv_0 vdd1v2 por_stepdown_0/vcap por_unbuf vss por_1v2_schmitt_inv
+Xcap_cmomf_T2STT2_0 vss vss por_stepdown_0/vcap cap_cmomf_T2STT2
+Xcap_cmomf_T2STT2_1 vss por_stepdown_0/vcap vss cap_cmomf_T2STT2
+Xsg13cmos5l_decap_4_0 vdd1v2 vss sg13cmos5l_decap_4
+Xpor_amp_0 vdd1v2 por_amp_0/inn por_amp_0/inp ena vss por_amp_0/nbias por_amp_0/out
++ por_amp
+Xsg13cmos5l_inv_4_0 sg13cmos5l_inv_4_0/Y por_unbuf vdd1v2 vss sg13cmos5l_inv_4
+Xsg13cmos5l_buf_16_0 por por_unbuf vdd1v2 vss sg13cmos5l_buf_16
+Xsg13cmos5l_buf_16_1 porb sg13cmos5l_inv_4_0/Y vdd1v2 vss sg13cmos5l_buf_16
+.ends
+

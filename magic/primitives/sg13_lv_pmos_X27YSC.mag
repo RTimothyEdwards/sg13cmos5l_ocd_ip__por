@@ -1,0 +1,391 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790019490
+<< error_p >>
+rect -383 75 -373 107
+rect -281 75 -271 107
+rect -179 75 -169 107
+rect -77 75 -67 107
+rect 25 75 35 107
+rect 127 75 137 107
+rect 229 75 239 107
+rect 331 75 341 107
+rect -428 -41 -388 41
+rect -326 -41 -286 41
+rect -224 -41 -184 41
+rect -122 -41 -82 41
+rect -20 -41 20 41
+rect 82 -41 122 41
+rect 184 -41 224 41
+rect 286 -41 326 41
+rect 388 -41 428 41
+rect -383 -107 -373 -75
+rect -281 -107 -271 -75
+rect -179 -107 -169 -75
+rect -77 -107 -67 -75
+rect 25 -107 35 -75
+rect 127 -107 137 -75
+rect 229 -107 239 -75
+rect 331 -107 341 -75
+<< nwell >>
+rect -602 -257 602 257
+<< pmos >>
+rect -370 -47 -344 47
+rect -268 -47 -242 47
+rect -166 -47 -140 47
+rect -64 -47 -38 47
+rect 38 -47 64 47
+rect 140 -47 166 47
+rect 242 -47 268 47
+rect 344 -47 370 47
+<< pdiff >>
+rect -438 33 -370 47
+rect -438 -33 -424 33
+rect -392 -33 -370 33
+rect -438 -47 -370 -33
+rect -344 33 -268 47
+rect -344 -33 -322 33
+rect -290 -33 -268 33
+rect -344 -47 -268 -33
+rect -242 33 -166 47
+rect -242 -33 -220 33
+rect -188 -33 -166 33
+rect -242 -47 -166 -33
+rect -140 33 -64 47
+rect -140 -33 -118 33
+rect -86 -33 -64 33
+rect -140 -47 -64 -33
+rect -38 33 38 47
+rect -38 -33 -16 33
+rect 16 -33 38 33
+rect -38 -47 38 -33
+rect 64 33 140 47
+rect 64 -33 86 33
+rect 118 -33 140 33
+rect 64 -47 140 -33
+rect 166 33 242 47
+rect 166 -33 188 33
+rect 220 -33 242 33
+rect 166 -47 242 -33
+rect 268 33 344 47
+rect 268 -33 290 33
+rect 322 -33 344 33
+rect 268 -47 344 -33
+rect 370 33 438 47
+rect 370 -33 392 33
+rect 424 -33 438 33
+rect 370 -47 438 -33
+<< pdiffc >>
+rect -424 -33 -392 33
+rect -322 -33 -290 33
+rect -220 -33 -188 33
+rect -118 -33 -86 33
+rect -16 -33 16 33
+rect 86 -33 118 33
+rect 188 -33 220 33
+rect 290 -33 322 33
+rect 392 -33 424 33
+<< nsubdiff >>
+rect -540 181 540 195
+rect -540 149 -448 181
+rect 448 149 540 181
+rect -540 135 540 149
+rect -540 103 -480 135
+rect -540 -103 -526 103
+rect -494 -103 -480 103
+rect 480 103 540 135
+rect -540 -135 -480 -103
+rect 480 -103 494 103
+rect 526 -103 540 103
+rect 480 -135 540 -103
+rect -540 -149 540 -135
+rect -540 -181 -448 -149
+rect 448 -181 540 -149
+rect -540 -195 540 -181
+<< nsubdiffcont >>
+rect -448 149 448 181
+rect -526 -103 -494 103
+rect 494 -103 526 103
+rect -448 -181 448 -149
+<< poly >>
+rect -387 107 -327 121
+rect -387 75 -373 107
+rect -341 75 -327 107
+rect -387 61 -327 75
+rect -285 107 -225 121
+rect -285 75 -271 107
+rect -239 75 -225 107
+rect -285 61 -225 75
+rect -183 107 -123 121
+rect -183 75 -169 107
+rect -137 75 -123 107
+rect -183 61 -123 75
+rect -81 107 -21 121
+rect -81 75 -67 107
+rect -35 75 -21 107
+rect -81 61 -21 75
+rect 21 107 81 121
+rect 21 75 35 107
+rect 67 75 81 107
+rect 21 61 81 75
+rect 123 107 183 121
+rect 123 75 137 107
+rect 169 75 183 107
+rect 123 61 183 75
+rect 225 107 285 121
+rect 225 75 239 107
+rect 271 75 285 107
+rect 225 61 285 75
+rect 327 107 387 121
+rect 327 75 341 107
+rect 373 75 387 107
+rect 327 61 387 75
+rect -370 47 -344 61
+rect -268 47 -242 61
+rect -166 47 -140 61
+rect -64 47 -38 61
+rect 38 47 64 61
+rect 140 47 166 61
+rect 242 47 268 61
+rect 344 47 370 61
+rect -370 -61 -344 -47
+rect -268 -61 -242 -47
+rect -166 -61 -140 -47
+rect -64 -61 -38 -47
+rect 38 -61 64 -47
+rect 140 -61 166 -47
+rect 242 -61 268 -47
+rect 344 -61 370 -47
+rect -387 -75 -327 -61
+rect -387 -107 -373 -75
+rect -341 -107 -327 -75
+rect -387 -121 -327 -107
+rect -285 -75 -225 -61
+rect -285 -107 -271 -75
+rect -239 -107 -225 -75
+rect -285 -121 -225 -107
+rect -183 -75 -123 -61
+rect -183 -107 -169 -75
+rect -137 -107 -123 -75
+rect -183 -121 -123 -107
+rect -81 -75 -21 -61
+rect -81 -107 -67 -75
+rect -35 -107 -21 -75
+rect -81 -121 -21 -107
+rect 21 -75 81 -61
+rect 21 -107 35 -75
+rect 67 -107 81 -75
+rect 21 -121 81 -107
+rect 123 -75 183 -61
+rect 123 -107 137 -75
+rect 169 -107 183 -75
+rect 123 -121 183 -107
+rect 225 -75 285 -61
+rect 225 -107 239 -75
+rect 271 -107 285 -75
+rect 225 -121 285 -107
+rect 327 -75 387 -61
+rect 327 -107 341 -75
+rect 373 -107 387 -75
+rect 327 -121 387 -107
+<< polycont >>
+rect -373 75 -341 107
+rect -271 75 -239 107
+rect -169 75 -137 107
+rect -67 75 -35 107
+rect 35 75 67 107
+rect 137 75 169 107
+rect 239 75 271 107
+rect 341 75 373 107
+rect -373 -107 -341 -75
+rect -271 -107 -239 -75
+rect -169 -107 -137 -75
+rect -67 -107 -35 -75
+rect 35 -107 67 -75
+rect 137 -107 169 -75
+rect 239 -107 271 -75
+rect 341 -107 373 -75
+<< metal1 >>
+rect -526 149 -448 181
+rect 448 149 526 181
+rect -526 103 -494 149
+rect -383 75 -373 107
+rect -341 75 -331 107
+rect -281 75 -271 107
+rect -239 75 -229 107
+rect -179 75 -169 107
+rect -137 75 -127 107
+rect -77 75 -67 107
+rect -35 75 -25 107
+rect 25 75 35 107
+rect 67 75 77 107
+rect 127 75 137 107
+rect 169 75 179 107
+rect 229 75 239 107
+rect 271 75 281 107
+rect 331 75 341 107
+rect 373 75 383 107
+rect 494 103 526 149
+rect -438 32 -424 33
+rect -392 32 -378 33
+rect -438 -32 -428 32
+rect -388 -32 -378 32
+rect -438 -33 -424 -32
+rect -392 -33 -378 -32
+rect -336 32 -322 33
+rect -290 32 -276 33
+rect -336 -32 -326 32
+rect -286 -32 -276 32
+rect -336 -33 -322 -32
+rect -290 -33 -276 -32
+rect -234 32 -220 33
+rect -188 32 -174 33
+rect -234 -32 -224 32
+rect -184 -32 -174 32
+rect -234 -33 -220 -32
+rect -188 -33 -174 -32
+rect -132 32 -118 33
+rect -86 32 -72 33
+rect -132 -32 -122 32
+rect -82 -32 -72 32
+rect -132 -33 -118 -32
+rect -86 -33 -72 -32
+rect -30 32 -16 33
+rect 16 32 30 33
+rect -30 -32 -20 32
+rect 20 -32 30 32
+rect -30 -33 -16 -32
+rect 16 -33 30 -32
+rect 72 32 86 33
+rect 118 32 132 33
+rect 72 -32 82 32
+rect 122 -32 132 32
+rect 72 -33 86 -32
+rect 118 -33 132 -32
+rect 174 32 188 33
+rect 220 32 234 33
+rect 174 -32 184 32
+rect 224 -32 234 32
+rect 174 -33 188 -32
+rect 220 -33 234 -32
+rect 276 32 290 33
+rect 322 32 336 33
+rect 276 -32 286 32
+rect 326 -32 336 32
+rect 276 -33 290 -32
+rect 322 -33 336 -32
+rect 378 32 392 33
+rect 424 32 438 33
+rect 378 -32 388 32
+rect 428 -32 438 32
+rect 378 -33 392 -32
+rect 424 -33 438 -32
+rect -526 -149 -494 -103
+rect -383 -107 -373 -75
+rect -341 -107 -331 -75
+rect -281 -107 -271 -75
+rect -239 -107 -229 -75
+rect -179 -107 -169 -75
+rect -137 -107 -127 -75
+rect -77 -107 -67 -75
+rect -35 -107 -25 -75
+rect 25 -107 35 -75
+rect 67 -107 77 -75
+rect 127 -107 137 -75
+rect 169 -107 179 -75
+rect 229 -107 239 -75
+rect 271 -107 281 -75
+rect 331 -107 341 -75
+rect 373 -107 383 -75
+rect 494 -149 526 -103
+rect -526 -181 -448 -149
+rect 448 -181 526 -149
+<< via1 >>
+rect -428 -32 -424 32
+rect -424 -32 -392 32
+rect -392 -32 -388 32
+rect -326 -32 -322 32
+rect -322 -32 -290 32
+rect -290 -32 -286 32
+rect -224 -32 -220 32
+rect -220 -32 -188 32
+rect -188 -32 -184 32
+rect -122 -32 -118 32
+rect -118 -32 -86 32
+rect -86 -32 -82 32
+rect -20 -32 -16 32
+rect -16 -32 16 32
+rect 16 -32 20 32
+rect 82 -32 86 32
+rect 86 -32 118 32
+rect 118 -32 122 32
+rect 184 -32 188 32
+rect 188 -32 220 32
+rect 220 -32 224 32
+rect 286 -32 290 32
+rect 290 -32 322 32
+rect 322 -32 326 32
+rect 388 -32 392 32
+rect 392 -32 424 32
+rect 424 -32 428 32
+<< metal2 >>
+rect -428 32 -388 41
+rect -428 -41 -388 -32
+rect -326 32 -286 41
+rect -326 -41 -286 -32
+rect -224 32 -184 41
+rect -224 -41 -184 -32
+rect -122 32 -82 41
+rect -122 -41 -82 -32
+rect -20 32 20 41
+rect -20 -41 20 -32
+rect 82 32 122 41
+rect 82 -41 122 -32
+rect 184 32 224 41
+rect 184 -41 224 -32
+rect 286 32 326 41
+rect 286 -41 326 -32
+rect 388 32 428 41
+rect 388 -41 428 -32
+<< labels >>
+rlabel nsubdiffcont 0 -165 0 -165 0 B
+port 1 nsew
+rlabel pdiffc -408 0 -408 0 0 D0
+port 2 nsew
+rlabel polycont -357 91 -357 91 0 G0
+port 3 nsew
+rlabel pdiffc -306 0 -306 0 0 S1
+port 4 nsew
+rlabel polycont -255 91 -255 91 0 G1
+port 5 nsew
+rlabel pdiffc -204 0 -204 0 0 D2
+port 6 nsew
+rlabel polycont -153 91 -153 91 0 G2
+port 7 nsew
+rlabel pdiffc -102 0 -102 0 0 S3
+port 8 nsew
+rlabel polycont -51 91 -51 91 0 G3
+port 9 nsew
+rlabel pdiffc 0 0 0 0 0 D4
+port 10 nsew
+rlabel polycont 51 91 51 91 0 G4
+port 11 nsew
+rlabel pdiffc 102 0 102 0 0 S5
+port 12 nsew
+rlabel polycont 153 91 153 91 0 G5
+port 13 nsew
+rlabel pdiffc 204 0 204 0 0 D6
+port 14 nsew
+rlabel polycont 255 91 255 91 0 G6
+port 15 nsew
+rlabel pdiffc 306 0 306 0 0 S7
+port 16 nsew
+rlabel polycont 357 91 357 91 0 G7
+port 17 nsew
+<< properties >>
+string FIXED_BBOX -510 -165 510 165
+string gencell sg13_lv_pmos
+string library sg13cmos5l
+string parameters w 0.47 l 0.13 m 1 ng 8 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 0 gate_ring 0 ccols 1 viasrc 100 viadrn 100 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

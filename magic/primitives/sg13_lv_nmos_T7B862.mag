@@ -1,0 +1,101 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790015669
+<< error_p >>
+rect -77 44 -67 76
+rect 25 44 35 76
+rect -128 -40 -118 2
+rect -26 -40 -16 2
+rect 76 -40 86 2
+<< pwell >>
+rect -296 -242 296 226
+<< nmos >>
+rect -64 -54 -38 16
+rect 38 -54 64 16
+<< ndiff >>
+rect -132 2 -64 16
+rect -132 -40 -118 2
+rect -86 -40 -64 2
+rect -132 -54 -64 -40
+rect -38 2 38 16
+rect -38 -40 -16 2
+rect 16 -40 38 2
+rect -38 -54 38 -40
+rect 64 2 132 16
+rect 64 -40 86 2
+rect 118 -40 132 2
+rect 64 -54 132 -40
+<< ndiffc >>
+rect -118 -40 -86 2
+rect -16 -40 16 2
+rect 86 -40 118 2
+<< psubdiff >>
+rect -234 104 234 164
+rect -234 72 -174 104
+rect -234 -72 -220 72
+rect -188 -72 -174 72
+rect 174 72 234 104
+rect -234 -120 -174 -72
+rect 174 -72 188 72
+rect 220 -72 234 72
+rect 174 -120 234 -72
+rect -234 -134 234 -120
+rect -234 -166 -142 -134
+rect 142 -166 234 -134
+rect -234 -180 234 -166
+<< psubdiffcont >>
+rect -220 -72 -188 72
+rect 188 -72 220 72
+rect -142 -166 142 -134
+<< poly >>
+rect -81 76 -21 90
+rect -81 44 -67 76
+rect -35 44 -21 76
+rect -81 30 -21 44
+rect 21 76 81 90
+rect 21 44 35 76
+rect 67 44 81 76
+rect 21 30 81 44
+rect -64 16 -38 30
+rect 38 16 64 30
+rect -64 -90 -38 -54
+rect 38 -90 64 -54
+<< polycont >>
+rect -67 44 -35 76
+rect 35 44 67 76
+<< metal1 >>
+rect -220 118 220 150
+rect -220 72 -188 118
+rect -77 44 -67 76
+rect -35 44 -25 76
+rect 25 44 35 76
+rect 67 44 77 76
+rect 188 72 220 118
+rect -128 -40 -118 2
+rect -86 -40 -76 2
+rect -26 -40 -16 2
+rect 16 -40 26 2
+rect 76 -40 86 2
+rect 118 -40 128 2
+rect -220 -134 -188 -72
+rect 188 -134 220 -72
+rect -220 -166 -142 -134
+rect 142 -166 220 -134
+<< labels >>
+rlabel ndiffc -102 -19 -102 -19 0 D0
+port 2 nsew
+rlabel polycont -51 60 -51 60 0 G0
+port 3 nsew
+rlabel ndiffc 0 -19 0 -19 0 S1
+port 4 nsew
+rlabel polycont 51 60 51 60 0 G1
+port 5 nsew
+rlabel psubdiffcont 0 -150 0 -150 0 B
+port 1 nsew
+<< properties >>
+string FIXED_BBOX -204 -134 204 134
+string gencell sg13_lv_nmos
+string library sg13cmos5l
+string parameters w 0.35 l 0.13 m 1 ng 2 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 0 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.13 wmin 0.15 class mosfet compatible {sg13_lv_nmos sg13_hv_nmos} full_metal 1 conn_gates 0 gate_ring 0 doports 1 viasrc 0 viadrn 0 viagate 0 ccols 1 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>
