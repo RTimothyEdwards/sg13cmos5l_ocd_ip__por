@@ -740,7 +740,7 @@ use rhigh_MGZFWD  rhigh_MGZFWD_1
 timestamp 1790095022
 transform 1 0 10611 0 1 1161
 box -5448 -1972 5448 1972
-use sg13cmos5l_buf_16  sg13cmos5l_buf_16_0 ../../sg13cmos5l_ocd_chipalooza/magic/sg13cmos5l_stdcell
+use sg13cmos5l_buf_16  sg13cmos5l_buf_16_0
 timestamp 1789591744
 transform -1 0 25650 0 1 3292
 box -48 -56 2448 834
@@ -748,11 +748,11 @@ use sg13cmos5l_buf_16  sg13cmos5l_buf_16_1
 timestamp 1789591744
 transform -1 0 23250 0 1 3292
 box -48 -56 2448 834
-use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0 ../../sg13cmos5l_ocd_chipalooza/magic/sg13cmos5l_stdcell
+use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0
 timestamp 1789591744
 transform 1 0 19890 0 1 3292
 box -48 -56 432 834
-use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0 ../../sg13cmos5l_ocd_chipalooza/magic/sg13cmos5l_stdcell
+use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0
 timestamp 1789591744
 transform 1 0 20274 0 1 3292
 box -48 -56 624 834
