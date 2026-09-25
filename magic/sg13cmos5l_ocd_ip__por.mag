@@ -1,11 +1,15 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1790095543
+timestamp 1790279972
+<< checkpaint >>
+rect 17842 1236 22898 6126
 << error_s >>
 rect 18794 3035 18795 3044
 rect 19551 3035 19552 3044
 rect 18794 3034 19552 3035
+<< digisub >>
+rect 5162 -811 60890 8170
 << psubdiff >>
 rect 16063 7854 26854 7868
 rect 16063 7822 16137 7854
@@ -740,7 +744,7 @@ use rhigh_MGZFWD  rhigh_MGZFWD_1
 timestamp 1790095022
 transform 1 0 10611 0 1 1161
 box -5448 -1972 5448 1972
-use sg13cmos5l_buf_16  sg13cmos5l_buf_16_0
+use sg13cmos5l_buf_16  sg13cmos5l_buf_16_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform -1 0 25650 0 1 3292
 box -48 -56 2448 834
@@ -748,11 +752,11 @@ use sg13cmos5l_buf_16  sg13cmos5l_buf_16_1
 timestamp 1789591744
 transform -1 0 23250 0 1 3292
 box -48 -56 2448 834
-use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0
+use sg13cmos5l_decap_4  sg13cmos5l_decap_4_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform 1 0 19890 0 1 3292
 box -48 -56 432 834
-use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0
+use sg13cmos5l_inv_4  sg13cmos5l_inv_4_0 sg13cmos5l_stdcell
 timestamp 1789591744
 transform 1 0 20274 0 1 3292
 box -48 -56 624 834
