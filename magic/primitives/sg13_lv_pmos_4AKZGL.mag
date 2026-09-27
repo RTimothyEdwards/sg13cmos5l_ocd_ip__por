@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1790028230
+timestamp 1790543251
 << error_p >>
 rect -824 59 -814 91
 rect -710 59 -700 91
@@ -242,19 +242,19 @@ rect 611 -16 643 16
 rect 725 -16 757 16
 rect 839 -16 871 16
 << nsubdiff >>
-rect -987 167 987 181
-rect -987 135 -895 167
-rect 895 135 987 167
-rect -987 121 987 135
-rect -987 -121 -927 121
-rect 927 -121 987 121
-rect -987 -135 987 -121
-rect -987 -167 -895 -135
-rect 895 -167 987 -135
-rect -987 -181 987 -167
+rect -987 169 987 183
+rect -987 137 -895 169
+rect 895 137 987 169
+rect -987 123 987 137
+rect -987 -123 -927 123
+rect 927 -123 987 123
+rect -987 -137 987 -123
+rect -987 -169 -895 -137
+rect 895 -169 987 -137
+rect -987 -183 987 -169
 << nsubdiffcont >>
-rect -895 135 895 167
-rect -895 -167 895 -135
+rect -895 137 895 169
+rect -895 -169 895 -137
 << poly >>
 rect -828 91 -768 105
 rect -828 59 -814 91
@@ -430,8 +430,8 @@ rect 554 -91 586 -59
 rect 668 -91 700 -59
 rect 782 -91 814 -59
 << metal1 >>
-rect -905 135 -895 167
-rect 895 135 905 167
+rect -905 137 -895 169
+rect 895 137 905 169
 rect -824 59 -814 91
 rect -782 59 -772 91
 rect -710 59 -700 91
@@ -552,8 +552,8 @@ rect 658 -91 668 -59
 rect 700 -91 710 -59
 rect 772 -91 782 -59
 rect 814 -91 824 -59
-rect -905 -167 -895 -135
-rect 895 -167 905 -135
+rect -905 -169 -895 -137
+rect 895 -169 905 -137
 << via1 >>
 rect -761 16 -721 20
 rect -761 -16 -757 16
@@ -724,7 +724,7 @@ rlabel polycont 684 75 684 75 0 G13
 port 29 nsew
 rlabel poly 798 75 798 75 0 G14
 port 32 nsew
-rlabel nsubdiffcont 0 -151 0 -151 0 B
+rlabel nsubdiffcont 0 -153 0 -153 0 B
 port 1 nsew
 << properties >>
 string FIXED_BBOX -957 -148 957 148
