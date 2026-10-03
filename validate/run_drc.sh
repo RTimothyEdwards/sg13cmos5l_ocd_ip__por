@@ -4,10 +4,12 @@
 # GDS is sg13cmos5l_ocd_ip__por.gds.gz, top level cell name is
 # sg13cmos5l_ocd_ip__por
 #
-echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
-echo ${PDK:=ihp-sg13cmos5l} > /dev/null
+export PDK_ROOT=${PDK_ROOT:-/usr/share/pdk}
+export PDK=${PDK:-ihp-sg13cmos5l}
 
-klayout -b -zz -r ${PDK_ROOT}/${PDK}/libs.tech/klayout/tech/drc/ihp-sg13cmos5l.drc -rd input=../gds/sg13cmos5l_ocd_ip__por.gds.gz -rd report=../validate/sg13cmos5l_ocd_ip__por.lyrdb -rd feol=True -rd beol=True -rd conn_drc=True -rd wedge=True -rd run_mode=deep -rd thr=16 -rd topcell=sg13cmos5l_ocd_ip__por
+export PROJECT=sg13cmos5l_ocd_ip__por
+
+klayout -b -zz -r ${PDK_ROOT}/${PDK}/libs.tech/klayout/tech/drc/${PDK}.drc -rd input=../gds/${PROJECT}.gds.gz -rd report=../validate/${PROJECT}.lyrdb -rd feol=True -rd beol=True -rd conn_drc=True -rd wedge=True -rd run_mode=deep -rd thr=16 -rd topcell=${PROJECT}
 
 echo "Done!"
 exit 0
