@@ -8,6 +8,7 @@ project=sg13cmos5l_ocd_ip__por
 
 echo "Running netlist extraction on ${project}"
 magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc << EOF
+addpath sg13cmos5l_stdcell
 load ${project}
 select top cell
 extract path extfiles
